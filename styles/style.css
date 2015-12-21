@@ -178,7 +178,8 @@ span {
   letter-spacing: 3px; }
 
 .border {
-  width: 8%;
+  border-top: 1px solid #4cddf3;
+  width: 6%;
   padding-bottom: 4%;
   margin: 0 auto; }
 
@@ -219,12 +220,14 @@ span {
   width: 30%;
   justify-content: space-between;
   text-transform: uppercase;
-  font-family: 'Karla';
-  color: #414141; }
+  font-family: 'Karla'; }
   .mainNav li {
-    list-style: none;
+    list-style: none; }
+  .mainNav a {
+    color: #414141;
+    text-decoration: none;
     transition: 1s ease; }
-    .mainNav li:hover {
+    .mainNav a:hover {
       color: #4cddf3; }
 
 .studioContent {
@@ -236,14 +239,6 @@ span {
   text-align: center; }
   .amazing h3 {
     margin-bottom: 8%; }
-
-.fa-circle-thin {
-  margin-top: 4%;
-  letter-spacing: 5px;
-  color: #e1e2e2;
-  transition: 1s ease; }
-  .fa-circle-thin:hover {
-    color: #4cddf3; }
 
 .about {
   width: 46%; }
@@ -258,14 +253,13 @@ span {
     line-height: 20px;
     color: #888; }
 
-.amazing h3, .about h3 {
+.commonh3 {
   color: #363f48;
   font-family: 'Karla';
   font-weight: 300;
   margin-top: 3%; }
 
 .content {
-  border: 1px solid turquoise;
   text-align: center;
   background: url(../assets/midBanner.jpg) no-repeat;
   background-size: cover;
@@ -273,11 +267,16 @@ span {
   color: white;
   position: relative; }
 
-.border {
-  width: 4%; }
+.contentEnjoyThem {
+  padding-top: 8%; }
 
 .screenBG {
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translate(-50%); }
+
+.map {
+  background: url(../assets/map.jpg) no-repeat;
+  background-size: 100%;
+  padding-bottom: 23.75%; }

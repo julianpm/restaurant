@@ -70,7 +70,8 @@ span{
 }
 
 .border{
-	width: 8%;
+	border-top:1px solid $seagreen;
+	width: 6%;
 	padding-bottom:4%;
 	margin:0 auto;
 }
@@ -127,9 +128,12 @@ span{
 	justify-content:space-between;
 	text-transform:uppercase;
 	font-family:'Karla';
-	color:#414141;
 	li{
 		list-style:none;
+	}
+	a{
+		color:#414141;
+		text-decoration:none;
 		transition:1s ease;
 		&:hover{
 			color:$seagreen;
@@ -155,16 +159,6 @@ span{
 // 	height:275px;
 // }
 
-.fa-circle-thin{
-	margin-top:4%;
-	letter-spacing:5px;
-	color: $headergrey;
-	transition:1s ease;
-	&:hover{
-		color:$seagreen;
-	}
-}
-
 .about{
 	width: 46%;
 	h3{
@@ -183,7 +177,7 @@ span{
 	}
 }
 
-.amazing h3, .about h3{
+.commonh3{
 	color:#363f48;
 	font-family:'Karla';
 	font-weight:300;
@@ -198,7 +192,6 @@ span{
 // CONTENT
 
 .content{
-	border:1px solid turquoise;
 	text-align:center;
 	background: url(../assets/midBanner.jpg) no-repeat;
 	background-size:cover;
@@ -207,8 +200,8 @@ span{
 	position:relative;
 }
 
-.border{
-	width: 4%;
+.contentEnjoyThem{
+	padding-top:8%;
 }
 
 .screenBG{
@@ -218,3 +211,23 @@ span{
 	transform:translate(-50%);
 }
 
+
+
+
+
+
+// FUN FACTS
+
+
+
+
+
+
+
+// MAP
+
+.map{
+	background: url(../assets/map.jpg) no-repeat;
+	background-size:100%;
+	padding-bottom:23.75%;
+}
