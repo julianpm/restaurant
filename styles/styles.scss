@@ -2,6 +2,7 @@
 $seagreen:#4cddf3;
 $lightgrey:#ebebeb;
 $headergrey:#e1e2e2;
+$cream:#f7f7f7;
 
 
 
@@ -18,6 +19,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .wrapper{
+	border:1px solid orange;
 	width: 70%;
 	margin:0 auto;
 }
@@ -31,6 +33,13 @@ span{
 	width: 6%;
 	padding-bottom:4%;
 	margin:0 auto;
+}
+
+.contentBorder{
+	padding-bottom:0;
+	margin-top:1.25%;
+	width: 5%;
+	border-top:2px solid $seagreen;
 }
 
 .enjoyThem{
@@ -212,19 +221,65 @@ span{
 	font-size:24px;
 }
 
-.contentBorder{
-	padding-bottom:0;
-	margin-top:1.25%;
-	width: 5%;
-	border-top:2px solid $seagreen;
-}
-
 .screenBG{
 	position:absolute;
 	bottom:0;
 	left:50%;
 	transform:translate(-50%);
 	height:55%;
+}
+
+
+
+
+
+
+
+
+// OUR TEAM
+
+.ourTeam{
+	background: $cream;
+	padding-top:5%;
+	border:2px solid red;
+}
+
+.ourTeamH3{
+	color:#313131;
+	margin-top:0;
+	padding-bottom:1%;
+	text-transform:uppercase;
+	font-size:32px;
+	letter-spacing:3px;
+}
+
+.ourTeamHeader{
+	border:2px solid darkcyan;
+	text-align:center;
+	p{
+		margin:3% 0 3% 0;
+		color:#777;
+		font-size:14px;
+	}
+}
+
+.teamProfile{
+	border:2px solid red;
+	justify-content:space-between;
+}
+
+.teamMember{
+	border:1px solid green;
+	width: 22%;
+}
+
+.teamPic{
+	width: 100%;
+}
+
+.teamBorder{
+	margin:0;
+	padding-bottom:0;
 }
 
 
@@ -288,6 +343,7 @@ span{
 
 
 
+
 // CONTENT HERE
 
 .contentHere{
@@ -309,6 +365,9 @@ span{
 	margin-top:0.5%;
 	color:white;
 }
+
+
+
 
 
 
