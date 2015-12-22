@@ -37,6 +37,7 @@ span{
 	color:$headergrey;
 	text-transform:uppercase;
 	font-family:'Karla';
+	font-size:14px;
 }
 
 .commonh3{
@@ -189,7 +190,6 @@ span{
 
 
 
-
 // CONTENT
 
 .content{
@@ -239,13 +239,17 @@ span{
 }
 
 .funFactsHeader{
+	text-align:center;
 	border:1px solid blue;
 }
 
 .funFactsH3{
-	margin-top:1.5%;
+	margin-top:1%;
 	font-size:24px;
+	color:#363f48;
 }
+
+
 
 
 

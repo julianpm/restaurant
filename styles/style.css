@@ -156,7 +156,8 @@ span {
 .enjoyThem {
   color: #e1e2e2;
   text-transform: uppercase;
-  font-family: 'Karla'; }
+  font-family: 'Karla';
+  font-size: 14px; }
 
 .commonh3 {
   color: #363f48;
@@ -292,9 +293,14 @@ span {
 .funFacts {
   border: 2px solid orange; }
 
+.funFactsHeader {
+  text-align: center;
+  border: 1px solid blue; }
+
 .funFactsH3 {
-  margin-top: 1.5%;
-  font-size: 24px; }
+  margin-top: 1%;
+  font-size: 24px;
+  color: #363f48; }
 
 .map {
   background: url(../assets/map.jpg) no-repeat;
