@@ -26,12 +26,25 @@ span{
 	color:$seagreen;
 }
 
+.border{
+	border-top:1px solid $seagreen;
+	width: 6%;
+	padding-bottom:4%;
+	margin:0 auto;
+}
+
 .enjoyThem{
 	color:$headergrey;
 	text-transform:uppercase;
 	font-family:'Karla';
 }
 
+.commonh3{
+	color:#363f48;
+	font-family:'Karla';
+	font-weight:300;
+	margin-top:3%;
+}
 
 
 
@@ -67,13 +80,6 @@ span{
 	font-size:20px;
 	font-style:italic;
 	letter-spacing:3px;
-}
-
-.border{
-	border-top:1px solid $seagreen;
-	width: 6%;
-	padding-bottom:4%;
-	margin:0 auto;
 }
 
 .ourServices{
@@ -177,12 +183,7 @@ span{
 	}
 }
 
-.commonh3{
-	color:#363f48;
-	font-family:'Karla';
-	font-weight:300;
-	margin-top:3%;
-}
+
 
 
 
@@ -193,15 +194,29 @@ span{
 
 .content{
 	text-align:center;
-	background: url(../assets/midBanner.jpg) no-repeat;
+	background: url(../assets/home_02.jpg) no-repeat;
 	background-size:cover;
-	height:70vh;
+	height:63.25vh;
 	color:white;
 	position:relative;
 }
 
 .contentEnjoyThem{
-	padding-top:8%;
+	padding-top:6%;
+	color:#8c8c8c;
+}
+
+.contenth3{
+	margin-top:1%;
+	color:white;
+	font-size:24px;
+}
+
+.contentBorder{
+	padding-bottom:0;
+	margin-top:1.25%;
+	width: 5%;
+	border-top:2px solid $seagreen;
 }
 
 .screenBG{
@@ -209,6 +224,7 @@ span{
 	bottom:0;
 	left:50%;
 	transform:translate(-50%);
+	height:55%;
 }
 
 
