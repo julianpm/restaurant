@@ -207,7 +207,7 @@ span{
 }
 
 .contenth3{
-	margin-top:1%;
+	margin-top:0.5%;
 	color:white;
 	font-size:24px;
 }
@@ -232,22 +232,48 @@ span{
 
 
 
+
 // FUN FACTS
 
 .funFacts{
-	border:2px solid orange;
+	padding-bottom:3%;
 }
 
 .funFactsHeader{
 	text-align:center;
-	border:1px solid blue;
+	padding:4% 0 3% 0;
 }
 
 .funFactsH3{
-	margin-top:1%;
+	margin-top:0.5%;
 	font-size:24px;
 	color:#363f48;
 }
+
+.funFactsContent{
+	justify-content:space-between;
+}
+
+.funFactsContentIndiv{
+	text-align:center;
+	width: 25%;
+	img{
+		width: 18%;
+	}
+	h3{
+		color:#474747;
+		font-family:'Karla';
+		font-weight:300;
+		font-size:60px;
+	}
+}
+
+.funFactsEnjoyThem{
+	color:#a3a3a3;
+	text-transform:uppercase;
+	margin-top:0;
+}
+
 
 
 
