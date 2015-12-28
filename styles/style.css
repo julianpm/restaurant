@@ -404,7 +404,8 @@ span {
   color: white; }
 
 .contactUs {
-  border: 1px solid cornflowerblue; }
+  border: 1px solid cornflowerblue;
+  padding-bottom: 4%; }
 
 .contactUsHeader {
   border: 1px solid red;
@@ -420,8 +421,31 @@ span {
 .contactOffice {
   border: 1px solid orange; }
 
-.contactHours {
-  border: 1px solid green; }
+.contactOfficeInfo {
+  border: 1px solid cyan;
+  justify-content: space-between; }
+
+.contactOfficeInfoCategories {
+  border: 1px solid brown; }
+
+.contactOfficeInfoCriteria {
+  border: 1px solid violet;
+  width: 65%; }
+
+.formInfo, .message {
+  background: #f7f7f7;
+  border: none;
+  margin-bottom: 3%;
+  font-size: 13px;
+  padding: 3% 0 3% 5%;
+  width: 100%; }
+
+.submit {
+  border: none;
+  background: #4cddf3;
+  color: white;
+  width: 100%;
+  border-radius: 3px; }
 
 .map {
   background: url(../assets/map.jpg) no-repeat;
