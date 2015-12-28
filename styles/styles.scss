@@ -397,6 +397,39 @@ span{
 
 
 
+// CONTACT US
+
+.contactUs{
+	border:1px solid cornflowerblue;
+}
+
+.contactUsHeader{
+	border:1px solid red;
+	text-align:center;
+}
+
+.contactOffice, .contactHours, form{
+	width: 30%;
+}
+
+.contactInfo{
+	border:1px solid purple;
+	justify-content:space-between;
+}
+
+.contactOffice{
+	border:1px solid orange;
+}
+
+.contactHours{
+	border:1px solid green;
+}
+
+
+
+
+
+
 // MAP
 
 .map{
