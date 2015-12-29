@@ -1,12 +1,20 @@
 @import '_setup.scss';
 $seagreen:#4cddf3;
-$lightgrey:#ebebeb;
-$headergrey:#e1e2e2;
 $cream:#f7f7f7;
+$main:#888888;
+$h3grey:#404141;
+$h4grey:#363f48;
+$ejgrey:#e1e2e2;
 
 
 
 // UNIVERSAL SETTINGS
+
+html{
+	font-family:'Khula';
+	font-weight:400;
+	color:$main;
+}
 
 h1,h2,h3,h4,h5,h6,p{
 	padding:0;
@@ -42,18 +50,26 @@ span{
 }
 
 .enjoyThem{
-	color:$headergrey;
 	text-transform:uppercase;
-	font-family:'Karla';
-	font-size:14px;
+	font-size:13px;
+	color:#e1e2e2;
 }
 
 .commonh3{
-	color:#363f48;
-	font-family:'Karla';
+	color:$h3grey;
 	font-weight:300;
-	margin-top:3%;
+	font-size:36px;
+	text-transform:uppercase;
 }
+
+.commonh4{
+	color:$h4grey;
+}
+
+.contenth4{
+	color:white;
+}
+
 
 
 
@@ -67,7 +83,6 @@ span{
 	text-align:center;
 	height:100vh;
 	justify-content:center;
-	font-family:'Karla';
 }
 
 
@@ -129,7 +144,6 @@ span{
 
 .studio{
 	margin-bottom:4%;
-	font-family:'Karla';
 }
 
 .navbar{
@@ -140,14 +154,13 @@ span{
 }
 
 .mainNav{
-	width: 30%;
+	width: 35%;
 	justify-content:space-between;
 	text-transform:uppercase;
 	li{
 		list-style:none;
 	}
 	a{
-		color:#414141;
 		text-decoration:none;
 		transition:1s ease;
 		&:hover{
@@ -188,7 +201,6 @@ span{
 	p:nth-of-type(2), p:last-child{
 		font-size:12.5px;
 		line-height:20px;
-		color:#888;
 	}
 }
 
@@ -207,11 +219,6 @@ span{
 	height:63.25vh;
 	color:white;
 	position:relative;
-}
-
-.contentEnjoyThem{
-	padding-top:6%;
-	color:#8c8c8c;
 }
 
 .contenth3{
@@ -238,24 +245,14 @@ span{
 // OUR TEAM
 
 .ourTeam{
-	background: $cream;
 	padding:5% 0 3% 0;
-}
-
-.ourTeamH3{
-	color:#313131;
-	margin-top:0;
-	padding-bottom:0.5%;
-	text-transform:uppercase;
-	font-size:32px;
-	letter-spacing:3px;
+	background: $cream;
 }
 
 .ourTeamHeader{
 	text-align:center;
 	p{
 		margin:3% 0 3% 0;
-		color:#777;
 		font-size:14px;
 	}
 }
@@ -278,13 +275,11 @@ span{
 
 .teamName{
 	padding-top:6%;
-	color:#585858;
 	text-transform:uppercase;
 }
 
 .teamTitle{
 	padding-top:3%;
-	color:#a3a3a3;
 }
 
 .teamBorder{
@@ -300,7 +295,6 @@ span{
 	padding-top:2%;
 	justify-content:space-between;
 	i{
-		color:#b4b4b4;
 		transition:1s;
 		padding:3px;
 		&:hover{
@@ -325,12 +319,6 @@ span{
 	padding:4% 0 3% 0;
 }
 
-.funFactsH3{
-	margin-top:0.5%;
-	font-size:24px;
-	color:#363f48;
-}
-
 .funFactsContent{
 	justify-content:space-between;
 }
@@ -346,17 +334,10 @@ span{
 		height:auto;
 	}
 	h3{
-		color:#474747;
 		font-family:'Karla';
 		font-weight:300;
 		font-size:60px;
 	}
-}
-
-.funFactsEnjoyThem{
-	color:#a3a3a3;
-	text-transform:uppercase;
-	margin-top:0;
 }
 
 .twitter{
@@ -382,14 +363,7 @@ span{
 	padding-top:14%;
 }
 
-.contentHereEnjoyThem{
-	color:#403f3e;
-}
 
-.contentHereCommonH3{
-	margin-top:0.5%;
-	color:white;
-}
 
 
 
@@ -403,6 +377,8 @@ span{
 	background-size:100%; 
 	height:60vh;
 }
+
+
 
 
 
@@ -449,7 +425,6 @@ span{
 }
 
 .formInfo, .message{
-	background: $cream;
 	border:none;
 	margin-bottom:3%;
 	font-size:13px;
@@ -459,11 +434,13 @@ span{
 
 .submit{
 	border:none;
-	background: $seagreen;
 	color:white;
 	width: 100%;
 	border-radius:3px;
+	background: $seagreen;
 }
+
+
 
 
 

@@ -132,6 +132,11 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
+html {
+  font-family: 'Khula';
+  font-weight: 400;
+  color: #888888; }
+
 h1, h2, h3, h4, h5, h6, p {
   padding: 0;
   margin: 0; }
@@ -160,24 +165,28 @@ span {
   border-top: 2px solid #4cddf3; }
 
 .enjoyThem {
-  color: #e1e2e2;
   text-transform: uppercase;
-  font-family: 'Karla';
-  font-size: 14px; }
+  font-size: 13px;
+  color: #e1e2e2; }
 
 .commonh3 {
-  color: #363f48;
-  font-family: 'Karla';
+  color: #404141;
   font-weight: 300;
-  margin-top: 3%; }
+  font-size: 36px;
+  text-transform: uppercase; }
+
+.commonh4 {
+  color: #363f48; }
+
+.contenth4 {
+  color: white; }
 
 .hero {
   background: url(../assets/topbanner.jpg) no-repeat;
   background-size: cover;
   text-align: center;
   height: 100vh;
-  justify-content: center;
-  font-family: 'Karla'; }
+  justify-content: center; }
 
 .flexBlock {
   color: white;
@@ -221,8 +230,7 @@ span {
   padding-left: 4%; }
 
 .studio {
-  margin-bottom: 4%;
-  font-family: 'Karla'; }
+  margin-bottom: 4%; }
 
 .navbar {
   justify-content: space-between;
@@ -231,13 +239,12 @@ span {
   padding: 1.5% 0; }
 
 .mainNav {
-  width: 30%;
+  width: 35%;
   justify-content: space-between;
   text-transform: uppercase; }
   .mainNav li {
     list-style: none; }
   .mainNav a {
-    color: #414141;
     text-decoration: none;
     transition: 1s ease; }
     .mainNav a:hover {
@@ -263,8 +270,7 @@ span {
     margin-bottom: 6%; }
   .about p:nth-of-type(2), .about p:last-child {
     font-size: 12.5px;
-    line-height: 20px;
-    color: #888; }
+    line-height: 20px; }
 
 .content {
   text-align: center;
@@ -273,10 +279,6 @@ span {
   height: 63.25vh;
   color: white;
   position: relative; }
-
-.contentEnjoyThem {
-  padding-top: 6%;
-  color: #8c8c8c; }
 
 .contenth3 {
   margin-top: 0.5%;
@@ -291,22 +293,13 @@ span {
   height: 55%; }
 
 .ourTeam {
-  background: #f7f7f7;
-  padding: 5% 0 3% 0; }
-
-.ourTeamH3 {
-  color: #313131;
-  margin-top: 0;
-  padding-bottom: 0.5%;
-  text-transform: uppercase;
-  font-size: 32px;
-  letter-spacing: 3px; }
+  padding: 5% 0 3% 0;
+  background: #f7f7f7; }
 
 .ourTeamHeader {
   text-align: center; }
   .ourTeamHeader p {
     margin: 3% 0 3% 0;
-    color: #777;
     font-size: 14px; }
 
 .teamProfile {
@@ -324,12 +317,10 @@ span {
 
 .teamName {
   padding-top: 6%;
-  color: #585858;
   text-transform: uppercase; }
 
 .teamTitle {
-  padding-top: 3%;
-  color: #a3a3a3; }
+  padding-top: 3%; }
 
 .teamBorder {
   margin: 8% auto;
@@ -343,7 +334,6 @@ span {
   padding-top: 2%;
   justify-content: space-between; }
   .socialMedia i {
-    color: #b4b4b4;
     transition: 1s;
     padding: 3px; }
     .socialMedia i:hover {
@@ -355,11 +345,6 @@ span {
 .funFactsHeader {
   text-align: center;
   padding: 4% 0 3% 0; }
-
-.funFactsH3 {
-  margin-top: 0.5%;
-  font-size: 24px;
-  color: #363f48; }
 
 .funFactsContent {
   justify-content: space-between; }
@@ -374,15 +359,9 @@ span {
     width: 18%;
     height: auto; }
   .funFactsContentIndiv h3 {
-    color: #474747;
     font-family: 'Karla';
     font-weight: 300;
     font-size: 60px; }
-
-.funFactsEnjoyThem {
-  color: #a3a3a3;
-  text-transform: uppercase;
-  margin-top: 0; }
 
 .twitter {
   padding: 4px 0 6px 0; }
@@ -395,13 +374,6 @@ span {
 .contentHereHeader {
   text-align: center;
   padding-top: 14%; }
-
-.contentHereEnjoyThem {
-  color: #403f3e; }
-
-.contentHereCommonH3 {
-  margin-top: 0.5%;
-  color: white; }
 
 .portfolio {
   background: url(../assets/imacBG.jpg) no-repeat;
@@ -438,7 +410,6 @@ span {
   width: 65%; }
 
 .formInfo, .message {
-  background: #f7f7f7;
   border: none;
   margin-bottom: 3%;
   font-size: 13px;
@@ -447,10 +418,10 @@ span {
 
 .submit {
   border: none;
-  background: #4cddf3;
   color: white;
   width: 100%;
-  border-radius: 3px; }
+  border-radius: 3px;
+  background: #4cddf3; }
 
 .map {
   background: url(../assets/map.jpg) no-repeat;
