@@ -146,6 +146,7 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex; }
 
 .wrapper {
+  border: 1px solid brown;
   width: 70%;
   margin: 0 auto; }
 
@@ -176,10 +177,14 @@ span {
   text-transform: uppercase; }
 
 .commonh4 {
-  color: #363f48; }
+  color: #363f48;
+  font-weight: 300;
+  font-size: 24px; }
 
 .contenth4 {
-  color: white; }
+  color: white;
+  font-weight: 300;
+  font-size: 24px; }
 
 .hero {
   background: url(../assets/topbanner.jpg) no-repeat;
@@ -246,7 +251,8 @@ span {
     list-style: none; }
   .mainNav a {
     text-decoration: none;
-    transition: 1s ease; }
+    transition: 1s ease;
+    color: #414141; }
     .mainNav a:hover {
       color: #4cddf3; }
 
@@ -280,10 +286,8 @@ span {
   color: white;
   position: relative; }
 
-.contenth3 {
-  margin-top: 0.5%;
-  color: white;
-  font-size: 24px; }
+.contentHeader {
+  padding-top: 7%; }
 
 .screenBG {
   position: absolute;
@@ -317,10 +321,12 @@ span {
 
 .teamName {
   padding-top: 6%;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #585858; }
 
 .teamTitle {
-  padding-top: 3%; }
+  padding-top: 3%;
+  color: #a3a3a3; }
 
 .teamBorder {
   margin: 8% auto;
@@ -335,16 +341,17 @@ span {
   justify-content: space-between; }
   .socialMedia i {
     transition: 1s;
-    padding: 3px; }
+    padding: 3px;
+    color: #a3a3a3; }
     .socialMedia i:hover {
       color: #4cddf3; }
 
 .funFacts {
-  padding-bottom: 3%; }
+  padding: 4% 0; }
 
 .funFactsHeader {
   text-align: center;
-  padding: 4% 0 3% 0; }
+  padding-bottom: 3%; }
 
 .funFactsContent {
   justify-content: space-between; }
@@ -368,7 +375,7 @@ span {
 
 .contentHere {
   background: url(../assets/midBanner.jpg) no-repeat;
-  padding-bottom: 14.5%;
+  padding-bottom: 13.4%;
   background-size: 100%; }
 
 .contentHereHeader {
@@ -376,17 +383,20 @@ span {
   padding-top: 14%; }
 
 .portfolio {
-  background: url(../assets/imacBG.jpg) no-repeat;
-  background-size: 100%;
-  height: 60vh; }
+  border: 1px solid magenta; }
+
+.portfolioHeader {
+  border: 1px solid green;
+  text-align: center; }
 
 .contactUs {
   border: 1px solid cornflowerblue;
-  padding-bottom: 4%; }
+  padding: 3% 0; }
 
 .contactUsHeader {
   border: 1px solid red;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 6%; }
 
 .contactOffice, .contactHours, form {
   width: 30%; }
@@ -403,13 +413,15 @@ span {
   justify-content: space-between; }
 
 .contactOfficeInfoCategories {
-  border: 1px solid brown; }
+  border: 1px solid brown;
+  color: #3c4346; }
 
 .contactOfficeInfoCriteria {
   border: 1px solid violet;
   width: 65%; }
 
 .formInfo, .message {
+  background: #f7f7f7;
   border: none;
   margin-bottom: 3%;
   font-size: 13px;

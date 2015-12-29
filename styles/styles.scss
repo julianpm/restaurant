@@ -2,6 +2,8 @@
 $seagreen:#4cddf3;
 $cream:#f7f7f7;
 $main:#888888;
+$teamgrey:#585858;
+$teamlightgrey:#a3a3a3;
 $h3grey:#404141;
 $h4grey:#363f48;
 $ejgrey:#e1e2e2;
@@ -27,6 +29,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .wrapper{
+	border:1px solid brown;
 	width: 70%;
 	margin:0 auto;
 }
@@ -64,10 +67,14 @@ span{
 
 .commonh4{
 	color:$h4grey;
+	font-weight:300;
+	font-size:24px;
 }
 
 .contenth4{
 	color:white;
+	font-weight:300;
+	font-size:24px;
 }
 
 
@@ -163,6 +170,7 @@ span{
 	a{
 		text-decoration:none;
 		transition:1s ease;
+		color:#414141;
 		&:hover{
 			color:$seagreen;
 		}
@@ -221,10 +229,8 @@ span{
 	position:relative;
 }
 
-.contenth3{
-	margin-top:0.5%;
-	color:white;
-	font-size:24px;
+.contentHeader{
+	padding-top:7%;
 }
 
 .screenBG{
@@ -276,10 +282,12 @@ span{
 .teamName{
 	padding-top:6%;
 	text-transform:uppercase;
+	color:$teamgrey;
 }
 
 .teamTitle{
 	padding-top:3%;
+	color:$teamlightgrey;
 }
 
 .teamBorder{
@@ -297,6 +305,7 @@ span{
 	i{
 		transition:1s;
 		padding:3px;
+		color:$teamlightgrey;
 		&:hover{
 			color:$seagreen;
 		}
@@ -311,12 +320,12 @@ span{
 // FUN FACTS
 
 .funFacts{
-	padding-bottom:3%;
+	padding:4% 0;
 }
 
 .funFactsHeader{
 	text-align:center;
-	padding:4% 0 3% 0;
+	padding-bottom:3%;
 }
 
 .funFactsContent{
@@ -354,7 +363,7 @@ span{
 
 .contentHere{
 	background: url(../assets/midBanner.jpg) no-repeat;
-	padding-bottom:14.5%;
+	padding-bottom:13.4%;
 	background-size:100%;
 }
 
@@ -373,9 +382,12 @@ span{
 // PORTFOLIO
 
 .portfolio{
-	background: url(../assets/imacBG.jpg) no-repeat;
-	background-size:100%; 
-	height:60vh;
+	border:1px solid magenta;
+}
+
+.portfolioHeader{
+	border:1px solid green;
+	text-align:center;
 }
 
 
@@ -389,12 +401,13 @@ span{
 
 .contactUs{
 	border:1px solid cornflowerblue;
-	padding-bottom:4%;
+	padding:3% 0;
 }
 
 .contactUsHeader{
 	border:1px solid red;
 	text-align:center;
+	padding-bottom:6%;
 }
 
 .contactOffice, .contactHours, form{
@@ -417,6 +430,7 @@ span{
 
 .contactOfficeInfoCategories{
 	border:1px solid brown;
+	color:#3c4346;
 }
 
 .contactOfficeInfoCriteria{
@@ -425,6 +439,7 @@ span{
 }
 
 .formInfo, .message{
+	background:$cream;
 	border:none;
 	margin-bottom:3%;
 	font-size:13px;
