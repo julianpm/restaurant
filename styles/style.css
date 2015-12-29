@@ -146,24 +146,11 @@ h1, h2, h3, h4, h5, h6, p {
   display: flex; }
 
 .wrapper {
-  border: 1px solid brown;
   width: 70%;
   margin: 0 auto; }
 
 span {
   color: #4cddf3; }
-
-.border {
-  border-top: 1px solid #4cddf3;
-  width: 6%;
-  padding-bottom: 4%;
-  margin: 0 auto; }
-
-.contentBorder {
-  padding-bottom: 0;
-  margin-top: 1.25%;
-  width: 5%;
-  border-top: 2px solid #4cddf3; }
 
 .enjoyThem {
   text-transform: uppercase;
@@ -185,6 +172,12 @@ span {
   color: white;
   font-weight: 300;
   font-size: 24px; }
+
+.contacth4 {
+  font-size: 30px;
+  font-weight: 300;
+  color: #667279;
+  line-height: 35px; }
 
 .hero {
   background: url(../assets/topbanner.jpg) no-repeat;
@@ -239,18 +232,19 @@ span {
 
 .navbar {
   justify-content: space-between;
-  width: 95%;
   margin: 0 auto;
   padding: 1.5% 0; }
 
 .mainNav {
-  width: 35%;
-  justify-content: space-between;
-  text-transform: uppercase; }
+  width: 28%;
+  justify-content: space-around;
+  text-transform: uppercase;
+  font-size: 12px; }
   .mainNav li {
     list-style: none; }
   .mainNav a {
     text-decoration: none;
+    padding: 5px;
     transition: 1s ease;
     color: #414141; }
     .mainNav a:hover {
@@ -258,19 +252,19 @@ span {
 
 .studioContent {
   justify-content: space-between;
-  margin-top: 8%; }
+  margin-top: 5%; }
 
 .amazing {
   width: 46%;
   text-align: center; }
-  .amazing h3 {
+  .amazing h4 {
     margin-bottom: 8%; }
 
 .about {
   width: 46%; }
-  .about h3 {
+  .about h4 {
     margin-bottom: 12%; }
-  .about p:first-child, .about h3 {
+  .about p:first-child, .about h4 {
     text-align: center; }
   .about p:nth-of-type(2) {
     margin-bottom: 6%; }
@@ -390,42 +384,41 @@ span {
   text-align: center; }
 
 .contactUs {
-  border: 1px solid cornflowerblue;
-  padding: 3% 0; }
+  padding: 4% 0; }
 
 .contactUsHeader {
-  border: 1px solid red;
   text-align: center;
   padding-bottom: 6%; }
 
 .contactOffice, .contactHours, form {
   width: 30%; }
 
-.contactInfo {
-  border: 1px solid purple;
-  justify-content: space-between; }
+.contact {
+  text-transform: uppercase;
+  font-size: 13px; }
 
-.contactOffice {
-  border: 1px solid orange; }
+.contactInfo {
+  justify-content: space-between; }
 
 .contactOfficeInfo {
-  border: 1px solid cyan;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-top: 12%; }
 
 .contactOfficeInfoCategories {
-  border: 1px solid brown;
-  color: #3c4346; }
+  color: #3c4346;
+  font-size: 13px;
+  font-weight: 700; }
 
 .contactOfficeInfoCriteria {
-  border: 1px solid violet;
-  width: 65%; }
+  width: 65%;
+  font-size: 13px; }
 
 .formInfo, .message {
   background: #f7f7f7;
   border: none;
   margin-bottom: 3%;
   font-size: 13px;
-  padding: 3% 0 3% 5%;
+  padding: 1% 0 1% 3%;
   width: 100%; }
 
 .submit {
