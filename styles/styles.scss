@@ -76,6 +76,21 @@ span{
 	line-height:35px;
 }
 
+.slider{
+	width: 85%;
+	margin:0 auto;
+}
+
+.slick-dots li{
+	border:1px solid $main;
+	border-radius:50%;
+	background: white;
+	transition:1s;
+	&:hover{
+		background: $seagreen;
+		border:1px solid $seagreen;
+	}
+}
 
 
 
@@ -195,22 +210,6 @@ span{
 	text-align:center;
 	h4{
 		margin-bottom:5%;
-	}
-}
-
-.slider{
-	width: 85%;
-	margin:0 auto;
-}
-
-.slick-dots li{
-	border:1px solid $main;
-	border-radius:50%;
-	background: white;
-	transition:1s;
-	&:hover{
-		background: $seagreen;
-		border:1px solid $seagreen;
 	}
 }
 
@@ -457,10 +456,7 @@ span{
 	}
 }
 
-.portfolioSlider{
-	margin:0 auto;
-	padding-bottom:2%;
-}
+
 
 .portfolioWork{
 	img{
