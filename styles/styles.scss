@@ -190,19 +190,41 @@ span{
 	width: 43%;
 	text-align:center;
 	h4{
-		margin-bottom:8%;
+		margin-bottom:5%;
 	}
 }
 
-// .grey{
-// 	background: $lightgrey;
-// 	height:275px;
-// }
+.slider{
+	width: 85%;
+	background: white;
+	margin:0 auto;
+}
+
+.slick-dots{
+}
+
+.slick-dots li{
+	border:1px solid $main;
+	border-radius:50%;
+	background: white;
+	transition:1s;
+	&:hover{
+		background: $seagreen;
+		border:1px solid $seagreen;
+	}
+}
+
+.studioWork{
+	img{
+		width: 100%;
+		height:auto;
+	}
+}
 
 .about{
 	width: 43%;
 	h4{
-		margin-bottom:12%;
+		margin-bottom:7%;
 	}
 	p:first-child, h4{
 		text-align:center;
@@ -285,6 +307,10 @@ span{
 
 .teamPic{
 	width: 100%;
+	&:hover{
+		background: black;
+		opacity:0.7;
+	}
 }
 
 .teamName{
@@ -473,6 +499,9 @@ span{
 	}
 	p{
 		padding-top:3%;
+	}
+	img{
+		padding-bottom:5px;
 	}
 }
 

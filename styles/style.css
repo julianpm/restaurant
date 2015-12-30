@@ -267,12 +267,30 @@ span {
   width: 43%;
   text-align: center; }
   .amazing h4 {
-    margin-bottom: 8%; }
+    margin-bottom: 5%; }
+
+.slider {
+  width: 85%;
+  background: white;
+  margin: 0 auto; }
+
+.slick-dots li {
+  border: 1px solid #888888;
+  border-radius: 50%;
+  background: white;
+  transition: 1s; }
+  .slick-dots li:hover {
+    background: #4cddf3;
+    border: 1px solid #4cddf3; }
+
+.studioWork img {
+  width: 100%;
+  height: auto; }
 
 .about {
   width: 43%; }
   .about h4 {
-    margin-bottom: 12%; }
+    margin-bottom: 7%; }
   .about p:first-child, .about h4 {
     text-align: center; }
   .about p:nth-of-type(2) {
@@ -324,6 +342,9 @@ span {
 
 .teamPic {
   width: 100%; }
+  .teamPic:hover {
+    background: black;
+    opacity: 0.7; }
 
 .teamName {
   padding-top: 6%;
@@ -445,6 +466,8 @@ span {
     padding-top: 3%; }
   .contactUsHeader p {
     padding-top: 3%; }
+  .contactUsHeader img {
+    padding-bottom: 5px; }
 
 .contactOffice, .contactHours, form {
   width: 30%; }
