@@ -271,7 +271,6 @@ span {
 
 .slider {
   width: 85%;
-  background: white;
   margin: 0 auto; }
 
 .slick-dots li {
@@ -425,6 +424,7 @@ span {
 .portfolioNav {
   width: 60%;
   margin: 0 auto;
+  padding-bottom: 6%;
   justify-content: space-between; }
   .portfolioNav li {
     list-style: none; }
@@ -439,14 +439,22 @@ span {
       background: #4cddf3;
       color: white; }
 
-.blackBoard h4 {
-  text-transform: uppercase; }
+.portfolioSlider {
+  margin: 0 auto;
+  padding-bottom: 2%; }
 
-.blackBoard img {
-  width: 100%;
-  height: auto;
-  display: block;
-  padding-top: 7%; }
+.portfolioWork img {
+  width: 100%; }
+
+.blackBoard {
+  margin-top: 8%; }
+  .blackBoard h4 {
+    text-transform: uppercase; }
+  .blackBoard img {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding-top: 7%; }
 
 .blackBoardHeader {
   text-align: center; }
