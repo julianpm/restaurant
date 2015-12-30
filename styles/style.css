@@ -147,8 +147,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .wrapper {
   width: 70%;
-  margin: 0 auto;
-  border: 1px solid red; }
+  margin: 0 auto; }
 
 .border {
   width: 5%;
@@ -167,7 +166,8 @@ span {
   color: #404141;
   font-weight: 300;
   font-size: 36px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  letter-spacing: 3px; }
 
 .commonh4 {
   color: #363f48;
@@ -390,21 +390,18 @@ span {
   padding-top: 14%; }
 
 .portfolio {
-  border: 1px solid magenta;
-  padding: 5% 0;
+  padding-top: 5%;
   background: #f7f7f7; }
   .portfolio p {
     font-size: 14px; }
 
 .portfolioHeader {
-  border: 1px solid green;
   text-align: center;
   margin-bottom: 4%; }
   .portfolioHeader p {
     padding-top: 3%; }
 
 .portfolioNav {
-  border: 1px solid orange;
   width: 60%;
   margin: 0 auto;
   justify-content: space-between; }
@@ -421,33 +418,31 @@ span {
       background: #4cddf3;
       color: white; }
 
-.blackBoard {
-  border: 1px solid purple; }
-  .blackBoard h4 {
-    text-transform: uppercase; }
+.blackBoard h4 {
+  text-transform: uppercase; }
+
+.blackBoard img {
+  width: 100%;
+  height: auto;
+  display: block;
+  padding-top: 7%; }
 
 .blackBoardHeader {
-  border: 1px solid green;
   text-align: center; }
 
 .gabrieleBio {
-  border: 1px solid blue;
   margin-top: 3%; }
   .gabrieleBio p:last-of-type {
     padding-top: 2%; }
 
-.imac {
-  padding-top: 35%;
-  background: url(../assets/imacBG.jpg) no-repeat;
-  background-size: 100%;
-  background-position: bottom 400px; }
-
 .contactUs {
-  padding: 5% 0; }
+  padding-bottom: 5%; }
 
 .contactUsHeader {
-  text-align: center;
-  padding-bottom: 6%; }
+  padding-bottom: 6%;
+  text-align: center; }
+  .contactUsHeader h3 {
+    padding-top: 3%; }
   .contactUsHeader p {
     padding-top: 3%; }
 
@@ -486,11 +481,17 @@ span {
   width: 100%; }
 
 .submit {
-  border: none;
+  border: 2px solid transparent;
   color: white;
   width: 100%;
   border-radius: 3px;
-  background: #4cddf3; }
+  background: #4cddf3;
+  padding-top: 7px;
+  transition: 1s; }
+  .submit:hover {
+    background: white;
+    color: #4cddf3;
+    border: 2px solid #4cddf3; }
 
 .map {
   background: url(../assets/map.jpg) no-repeat;
