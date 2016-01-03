@@ -208,6 +208,7 @@ span {
   justify-content: center; }
 
 .flexBlock {
+  border: 1px solid pink;
   color: white;
   width: 60%;
   margin: auto; }
@@ -260,6 +261,7 @@ span {
   padding: 1.5% 0; }
 
 .mainNav {
+  border: 1px solid orange;
   width: 28%;
   justify-content: space-between;
   text-transform: uppercase;
@@ -343,6 +345,7 @@ span {
     background-image: url("../assets/persona4.jpg"); }
 
 .teamMember {
+  border: 1px solid green;
   width: 22%;
   background: white;
   text-align: center; }
@@ -422,6 +425,7 @@ span {
   justify-content: space-between; }
 
 .funFactsContentIndiv {
+  border: 1px solid purple;
   text-align: center;
   width: 25%;
   flex-direction: column;
@@ -460,6 +464,7 @@ span {
     padding-top: 3%; }
 
 .portfolioNav {
+  border: 1px solid limegreen;
   width: 60%;
   margin: 0 auto;
   padding-bottom: 6%;
@@ -581,4 +586,46 @@ span {
 
 @media all and (max-width: 950px) {
   .contacth4 {
-    font-size: 24px; } }
+    font-size: 24px; }
+  .mainNav {
+    width: 45%; }
+  .flexBlock h1 {
+    font-size: 60px; } }
+
+@media all and (max-width: 906px) {
+  .portfolioNav {
+    width: 90%; }
+  .commonh3 {
+    font-size: 28px; } }
+
+@media all and (max-width: 850px) {
+  .buyTheme {
+    width: 40%; }
+  .teamMember {
+    width: 45%;
+    margin-bottom: 5%; }
+  .contactOffice, .contactHours, form {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 5%; } }
+
+@media all and (max-width: 810px) {
+  .flexBlock h1 {
+    font-size: 50px; } }
+
+@media all and (max-width: 760px) {
+  .funFactsContentIndiv {
+    width: 45%;
+    margin-bottom: 5%; }
+  .portfolioNav a {
+    padding: 5px 10px 0 10px; }
+  .mainNav {
+    width: 55%; } }
+
+@media all and (max-width: 695px) {
+  p {
+    font-size: 12px; }
+  .flexBlock {
+    width: 75%; }
+  .flexBlock h1 {
+    font-size: 42px; } }
