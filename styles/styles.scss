@@ -35,6 +35,7 @@ h1,h2,h3,h4,h5,h6,p{
 .wrapper{
 	width: 70%;
 	margin:0 auto;
+	border:1px solid red;
 }
 
 .border{
@@ -191,6 +192,7 @@ span{
 }
 
 .mainNav{
+	border:1px solid orange;
 	width: 28%;
 	justify-content:space-between;
 	text-transform:uppercase;
@@ -335,6 +337,7 @@ span{
 			display:block;
 		}
 
+
 		&:before{
 			position:absolute;
 			background-color: rgba(black, 0.45);
@@ -344,9 +347,10 @@ span{
 			content:'';
 			top:0;
 			display: block;
-		}//before
-	}//hover
-} //team member
+			}//before
+		}//team pic
+	} //hover
+}//team member
 
 .teamPic{
 	position:relative;
@@ -471,16 +475,13 @@ span{
 // CONTENT HERE
 
 .contentHere{
+	flex-direction:column;
+	justify-content:center;
 	background: url(../assets/midBanner.jpg) no-repeat;
-	padding-bottom:13.4%;
-	background-size:100%;
-}
-
-.contentHereHeader{
+	background-size:cover;
 	text-align:center;
-	padding-top:14%;
+	padding:13.5% 0;
 }
-
 
 
 
@@ -591,6 +592,7 @@ span{
 
 .contactOffice, .contactHours, form{
 	width: 30%;
+	border:1px solid green;
 }
 
 .contact{
@@ -609,17 +611,20 @@ span{
 .contactOfficeInfo{
 	justify-content:space-between;
 	margin-top:12%;
+	border:1px solid darkcyan;
 }
 
 .contactOfficeInfoCategories{
 	color:#3c4346;
 	font-size:13px;
 	font-weight:700;
+	border:1px solid magenta;
 }
 
 .contactOfficeInfoCriteria{
 	width: 65%;
 	font-size:13px;
+	border:1px solid cornflowerblue;
 }
 
 .formInfo, .message{
@@ -657,6 +662,42 @@ span{
 
 .map{
 	background: url(../assets/map.jpg) no-repeat;
-	background-size:100%;
+	background-size:cover;
 	padding-bottom:23.75%;
 }
+
+
+
+
+
+
+
+// MEDIA QUERIES
+
+@media all and (max-width: 1186px){
+	.mainNav{
+		width: 35%;
+	}
+}
+
+@media all and (max-width: 1122px){
+	.portfolioNav{
+		width: 75%;
+	}
+}
+
+
+@media all and (max-width: 1081px){
+	.contactOfficeInfoCriteria{
+		width: 50%;
+	}
+}
+
+@media all and (max-width: 950px){
+	.contacth4{
+		font-size:24px;
+	}
+}
+
+
+
