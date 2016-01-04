@@ -147,8 +147,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .wrapper {
   width: 70%;
-  margin: 0 auto;
-  border: 1px solid red; }
+  margin: 0 auto; }
 
 .border {
   width: 5%;
@@ -208,7 +207,6 @@ span {
   justify-content: center; }
 
 .flexBlock {
-  border: 1px solid pink;
   color: white;
   width: 60%;
   margin: auto; }
@@ -261,7 +259,6 @@ span {
   padding: 1.5% 0; }
 
 .mainNav {
-  border: 1px solid orange;
   width: 28%;
   justify-content: space-between;
   text-transform: uppercase;
@@ -345,7 +342,6 @@ span {
     background-image: url("../assets/persona4.jpg"); }
 
 .teamMember {
-  border: 1px solid green;
   width: 22%;
   background: white;
   text-align: center; }
@@ -425,7 +421,6 @@ span {
   justify-content: space-between; }
 
 .funFactsContentIndiv {
-  border: 1px solid purple;
   text-align: center;
   width: 25%;
   flex-direction: column;
@@ -464,7 +459,6 @@ span {
     padding-top: 3%; }
 
 .portfolioNav {
-  border: 1px solid limegreen;
   width: 60%;
   margin: 0 auto;
   padding-bottom: 6%;
@@ -514,11 +508,12 @@ span {
   .contactUsHeader p {
     padding-top: 3%; }
   .contactUsHeader img {
-    padding-bottom: 5px; }
+    padding-bottom: 5px;
+    width: 36%;
+    height: auto; }
 
 .contactOffice, .contactHours, form {
-  width: 30%;
-  border: 1px solid green; }
+  width: 30%; }
 
 .contact {
   text-transform: uppercase;
@@ -532,19 +527,16 @@ span {
 
 .contactOfficeInfo {
   justify-content: space-between;
-  margin-top: 12%;
-  border: 1px solid darkcyan; }
+  margin-top: 12%; }
 
 .contactOfficeInfoCategories {
   color: #3c4346;
   font-size: 13px;
-  font-weight: 700;
-  border: 1px solid magenta; }
+  font-weight: 700; }
 
 .contactOfficeInfoCriteria {
   width: 65%;
-  font-size: 13px;
-  border: 1px solid cornflowerblue; }
+  font-size: 13px; }
 
 .formInfo, .message {
   background: #f7f7f7;
@@ -600,14 +592,19 @@ span {
 
 @media all and (max-width: 850px) {
   .buyTheme {
-    width: 40%; }
+    width: 40%;
+    padding-top: 10px; }
   .teamMember {
     width: 45%;
     margin-bottom: 5%; }
   .contactOffice, .contactHours, form {
     width: 60%;
     margin: 0 auto;
-    padding-bottom: 5%; } }
+    padding-bottom: 5%; }
+  .contactOfficeInfoCriteria {
+    width: 60%; }
+  .blackBoard {
+    margin-top: 12%; } }
 
 @media all and (max-width: 810px) {
   .flexBlock h1 {
@@ -617,15 +614,115 @@ span {
   .funFactsContentIndiv {
     width: 45%;
     margin-bottom: 5%; }
+  .number {
+    font-size: 40px; }
   .portfolioNav a {
     padding: 5px 10px 0 10px; }
   .mainNav {
     width: 55%; } }
 
 @media all and (max-width: 695px) {
-  p {
+  .ourServices p, .ourTeamHeader p, .portfolioHeader p, .blackBoard p, .contactUsHeader p {
     font-size: 12px; }
+  .commonh3 {
+    font-size: 22px; }
   .flexBlock {
     width: 75%; }
   .flexBlock h1 {
-    font-size: 42px; } }
+    font-size: 42px; }
+  .amazing, .about {
+    width: 75%;
+    margin-bottom: 7%; }
+  .gabrieleBio p {
+    margin-bottom: 3%; }
+  .contactOfficeInfoCategories {
+    width: 35%; }
+  .contactOfficeInfoCriteria {
+    width: 65%; }
+  .contactOffice, form {
+    width: 90%;
+    padding-bottom: 8%; } }
+
+@media all and (max-width: 605px) {
+  .mainNav {
+    width: 65%; }
+  .portfolioNav {
+    width: 100%; } }
+
+@media all and (max-width: 550px) {
+  .blackBoard {
+    margin-top: 20%; }
+  .teamMember {
+    width: 70%;
+    margin: 5% auto; }
+  .contentHeader .enjoyThem {
+    padding-top: 8%; }
+  .ourServices {
+    width: 100%; }
+  .funFacts {
+    padding-top: 8%; }
+  .portfolioNav {
+    flex-direction: column;
+    justify-content: center;
+    padding: 4% 0; }
+  .portfolioNav li {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 5%; }
+  .portfolioNav a {
+    width: 100%; } }
+
+@media all and (max-width: 515px) {
+  .mainNav {
+    width: 70%; }
+  .content {
+    height: 40vh; }
+  .screenBG {
+    height: 40%; } }
+
+@media all and (max-width: 480px) {
+  .hero {
+    height: 70vh;
+    background-position: center; }
+  .buyTheme {
+    width: 55%; }
+  .flexBlock h1 {
+    font-size: 36px; }
+  .welcome {
+    padding-bottom: 5%; }
+  .mainNav {
+    width: 100%;
+    margin-top: 4%; }
+  .amazing, .about {
+    margin-top: 3%;
+    width: 100%; } }
+
+@media all and (max-width: 430px) {
+  .wrapper {
+    width: 85%; }
+  .hero {
+    height: 60vh; }
+  .flexBlock {
+    width: 90%; }
+  .flexBlock h1 {
+    font-size: 28px; }
+  .navbar {
+    padding-top: 5%; }
+  .mainNav {
+    padding-top: 2%; }
+  .contactOfficeInfoCategories p, .contactOfficeInfoCriteria p {
+    font-size: 11px; }
+  .contactOffice, form {
+    width: 100%; } }
+
+@media all and (max-width: 335px) {
+  .buyTheme {
+    width: 60%; }
+  .mainNav {
+    font-size: 10px; }
+  .ourTeam {
+    padding-top: 10%; }
+  .teamMember {
+    width: 85%; }
+  .blackBoard {
+    padding-top: 8%; } }
