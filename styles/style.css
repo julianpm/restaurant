@@ -303,7 +303,7 @@ span {
   text-align: center;
   background: url(../assets/home_02.jpg) no-repeat;
   background-size: cover;
-  height: 63.25vh;
+  padding-bottom: 23%;
   color: white;
   position: relative; }
 
@@ -311,14 +311,13 @@ span {
   border-top: 2px solid #4cddf3; }
 
 .contentHeader {
-  padding-top: 7%; }
+  padding: 7% 0 0.5% 0; }
 
 .screenBG {
   position: absolute;
   bottom: 0;
-  left: 50%;
   transform: translate(-50%);
-  height: 55%; }
+  max-width: 50%; }
 
 .ourTeam {
   padding: 5% 0 3% 0;
@@ -674,11 +673,7 @@ span {
 
 @media all and (max-width: 515px) {
   .mainNav {
-    width: 70%; }
-  .content {
-    height: 40vh; }
-  .screenBG {
-    height: 40%; } }
+    width: 70%; } }
 
 @media all and (max-width: 480px) {
   .hero {
